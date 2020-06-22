@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FeedItem" representedClassName="FeedItem" syncable="YES" codeGenerationType="class">
+        <attribute name="feed_name" optional="YES" attributeType="String"/>
+        <attribute name="feed_url" optional="YES" attributeType="String"/>
+        <attribute name="sort" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="ReadPost" representedClassName="ReadPost" syncable="YES" codeGenerationType="class">
+        <attribute name="post_url" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SavedPostItem" representedClassName="SavedPostItem" syncable="YES" codeGenerationType="class">
+        <attribute name="create_at" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="post_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="post_name" optional="YES" attributeType="String"/>
+        <attribute name="post_url" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="FeedItem" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="ReadPost" positionX="-63" positionY="0" width="128" height="58"/>
+        <element name="SavedPostItem" positionX="-63" positionY="9" width="128" height="103"/>
+    </elements>
+</model>

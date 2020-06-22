@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  RSSReader
+
+  Created by nikolay on 20.04.2020.
+  Copyright © 2020 nikolay. All rights reserved.
+*/
+"Add RSS feed" = "Добавить RSS ленту";
+"Type name and URL of feed" = "Введите название и адрес ленты";
+"Add" = "Добавить";
+"Cancel" = "Отмена";
+"Name (not required)" = "Название (не обязательно)";
+"Refreshing" = "Обновление ленты";
+"Saved articles" = "Сохраненные";
+"Saved" = "Сохранено";
+"Article saved to Favorites" = "Статья сохранена в избранное";
